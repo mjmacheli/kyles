@@ -206,3 +206,46 @@ a.article:hover {
     margin: .5em;
     background: gray;
 }
+
+
+/*
+    For Mobiles
+ */
+
+ @media screen and (max-width: 768px) {
+   #sidebarCollapse {
+       padding-left: 0;
+       padding-top: 2em;
+       margin-left: 0;
+       background-color: transparent;
+       border: none;
+   }
+
+   #sidebarCollapse span {
+       display: block;
+       width: 4em;
+       height: .3em;
+   }
+
+   .btn-outline-secondary {
+       padding: .5em 1.5em;
+   }
+}
+
+@media screen and (max-width: 540px) {
+  #sidebarCollapse span {
+      display: block;
+      width: 3.5em;
+      height: .3em;
+      margin: .4em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #sidebarCollapse span {
+      display: block;
+      width: 3em;
+      height: .25em;
+      margin: .3em;
+  }
+}
